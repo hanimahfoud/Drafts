@@ -8,6 +8,40 @@
 
 const SITE_DATA = {
 
+  /* ---------------- Guiding principles ----------------
+     Editorial text on the discipline itself, written for this site.
+     It is deliberately NOT presented as a personal quotation — replace
+     it with Dr. Vahidi's own words if he wishes to speak in his voice. */
+  philosophy: [
+    {
+      icon: 'sigma',
+      en: { t: 'Rigour before tooling',
+            d: 'Languages, frameworks and libraries turn over with every cohort; the reasoning that makes them intelligible does not. A student who understands why an algorithm terminates will learn any new tool in a week — the reverse is never true.' },
+      fa: { t: 'دقت پیش از ابزار',
+            d: 'زبان‌ها، چارچوب‌ها و کتابخانه‌ها با هر نسل از دانشجویان عوض می‌شوند؛ اما استدلالی که آن‌ها را فهم‌پذیر می‌کند تغییر نمی‌کند. دانشجویی که بداند چرا یک الگوریتم پایان می‌پذیرد، هر ابزار تازه‌ای را در یک هفته می‌آموزد — و عکس آن هرگز درست نیست.' },
+      ar: { t: 'الصرامة قبل الأدوات',
+            d: 'اللغات والأُطر والمكتبات تتبدّل مع كل دفعة من الطلبة، أمّا الاستدلال الذي يجعلها مفهومة فلا يتبدّل. والطالب الذي يدرك لماذا تنتهي الخوارزمية يتعلّم أي أداة جديدة في أسبوع — والعكس لا يصحّ أبداً.' }
+    },
+    {
+      icon: 'function',
+      en: { t: 'Abstraction as a bridge',
+            d: 'Abstraction is what carries a theorem into an algorithm, and an algorithm into a system that runs. Learning to move deliberately between these levels — and to know which one a problem actually lives on — is the central skill of the discipline.' },
+      fa: { t: 'انتزاع همچون پل',
+            d: 'انتزاع همان چیزی است که یک قضیه را به الگوریتم، و الگوریتم را به سامانه‌ای کارآمد بدل می‌کند. آموختنِ حرکت آگاهانه میان این سطوح — و تشخیص اینکه مسئله در کدام سطح جای دارد — مهارت مرکزی این رشته است.' },
+      ar: { t: 'التجريد جسراً',
+            d: 'التجريد هو ما يحمل المبرهنة إلى خوارزمية، والخوارزمية إلى نظامٍ يعمل. وإتقانُ الانتقال الواعي بين هذه المستويات — ومعرفةُ أيِّها تسكنه المسألة حقاً — هو المهارة المركزية في هذا التخصّص.' }
+    },
+    {
+      icon: 'target',
+      en: { t: 'Proof and experiment together',
+            d: 'A result that is only proved may never run; a result that is only measured may not generalise. Serious computational work needs both, and an honest account of which of the two is speaking at any given moment.' },
+      fa: { t: 'اثبات و آزمایش در کنار هم',
+            d: 'نتیجه‌ای که تنها اثبات شده باشد شاید هرگز اجرا نشود، و نتیجه‌ای که تنها اندازه‌گیری شده باشد شاید تعمیم نیابد. کار محاسباتی جدی به هر دو نیاز دارد، و به بیانی صادقانه از اینکه در هر لحظه کدام‌یک سخن می‌گوید.' },
+      ar: { t: 'البرهان والتجربة معاً',
+            d: 'نتيجةٌ بُرهنت وحدها قد لا تعمل أبداً، ونتيجةٌ قِيست وحدها قد لا تصلح للتعميم. والعمل الحاسوبي الجادّ يحتاج إليهما معاً، وإلى بيانٍ أمينٍ عن أيِّهما يتكلّم في كل لحظة.' }
+    }
+  ],
+
   /* ---------------- Research areas ---------------- */
   research: [
     {

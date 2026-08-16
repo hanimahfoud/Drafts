@@ -87,6 +87,7 @@
      RENDERING
      ------------------------------------------------- */
   function renderAll() {
+    renderCards('#philCards', SITE_DATA.philosophy);
     renderResearch();
     renderPublications();
     renderBooks();
@@ -97,9 +98,14 @@
   }
 
   function renderResearch() {
-    const host = $('#researchCards');
+    renderCards('#researchCards', SITE_DATA.research);
+  }
+
+  /* Shared icon-card renderer for the philosophy and research grids. */
+  function renderCards(selector, items) {
+    const host = $(selector);
     if (!host) return;
-    host.innerHTML = SITE_DATA.research.map(function (r) {
+    host.innerHTML = items.map(function (r) {
       const c = r[lang] || r.en;
       return '<article class="card reveal">' +
                '<span class="card-ico">' + svg(r.icon) + '</span>' +
