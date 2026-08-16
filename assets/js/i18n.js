@@ -53,14 +53,15 @@ const I18N = {
 
     pubKicker: 'Peer-reviewed output', pubTitle: 'Selected Publications',
     pubLede: 'A selection from a body of work exceeding two hundred journal articles, conference papers and book chapters. The complete and continuously updated record is available on Scopus and Google Scholar.',
-    filterAll: 'All', filterJournal: 'Journal articles', filterConference: 'Conference papers', filterChapter: 'Book chapters',
+    filterAll: 'All', filterJournal: 'Journal articles', filterConference: 'Conference papers',
+    filterChapter: 'Book chapters', filterPreprint: 'Preprints',
     pubAllScopus: 'View full list on Scopus', pubAllScholar: 'View full list on Google Scholar',
 
     booksKicker: 'Authored &amp; translated works', booksTitle: 'Books',
     booksLede: 'Scholarly and instructional titles published in Persian and English. A catalogue of listed titles is maintained on Iranketab.',
     booksAll: 'Full book listing on Iranketab',
     booksEmpty: 'The catalogue of published titles is maintained on Iranketab. Verified entries will be listed here.',
-    pubNote: 'This selection lists only records confirmed against DBLP, Springer and the author&rsquo;s indexed profiles. It is a partial view — the authoritative, complete list is on Scopus and Google Scholar.',
+    pubNote: 'Each entry here has been verified against DBLP, Springer, arXiv or the author&rsquo;s indexed profiles. It remains a selection rather than the whole record — the authoritative, complete list is on Scopus and Google Scholar.',
 
     teachKicker: 'Graduate &amp; undergraduate', teachTitle: 'Teaching &amp; Supervision',
     teachLede: 'Courses taught across the mathematics and computer science curriculum, together with supervision of master&rsquo;s and doctoral research.',
@@ -133,14 +134,15 @@ const I18N = {
 
     pubKicker: 'دستاوردهای داوری‌شده', pubTitle: 'انتشارات منتخب',
     pubLede: 'گزیده‌ای از مجموعه‌ای بیش از دویست مقاله نشریه، مقاله کنفرانس و فصل کتاب. فهرست کامل و پیوسته به‌روزشده در اسکوپوس و گوگل اسکالر در دسترس است.',
-    filterAll: 'همه', filterJournal: 'مقالات نشریه', filterConference: 'مقالات کنفرانس', filterChapter: 'فصول کتاب',
+    filterAll: 'همه', filterJournal: 'مقالات نشریه', filterConference: 'مقالات کنفرانس',
+    filterChapter: 'فصول کتاب', filterPreprint: 'پیش‌چاپ‌ها',
     pubAllScopus: 'مشاهده فهرست کامل در اسکوپوس', pubAllScholar: 'مشاهده فهرست کامل در گوگل اسکالر',
 
     booksKicker: 'تألیف و ترجمه', booksTitle: 'کتاب‌ها',
     booksLede: 'عناوین علمی و آموزشی منتشرشده به زبان فارسی و انگلیسی. فهرست عناوین ثبت‌شده در ایران‌کتاب نگهداری می‌شود.',
     booksAll: 'فهرست کامل کتاب‌ها در ایران‌کتاب',
     booksEmpty: 'فهرست عناوین منتشرشده در ایران‌کتاب نگهداری می‌شود. عناوین تأییدشده در این بخش درج خواهد شد.',
-    pubNote: 'این گزیده تنها شامل رکوردهایی است که با DBLP، اشپرینگر و پروفایل‌های نمایه‌شده نویسنده تطبیق داده شده‌اند. این فهرست جزئی است — سیاهه کامل و مرجع در اسکوپوس و گوگل اسکالر در دسترس است.',
+    pubNote: 'هر مدخل این فهرست با DBLP، اشپرینگر، arXiv یا پروفایل‌های نمایه‌شده نویسنده راستی‌آزمایی شده است. با این حال گزیده‌ای است نه همه کارنامه — سیاهه کامل و مرجع در اسکوپوس و گوگل اسکالر در دسترس است.',
 
     teachKicker: 'تحصیلات تکمیلی و کارشناسی', teachTitle: 'تدریس و راهنمایی',
     teachLede: 'دروس ارائه‌شده در برنامه ریاضی و علوم کامپیوتر، همراه با راهنمایی پژوهش‌های کارشناسی ارشد و دکتری.',
@@ -213,14 +215,15 @@ const I18N = {
 
     pubKicker: 'الإنتاج المُحكَّم', pubTitle: 'منشورات مختارة',
     pubLede: 'مختارات من نتاجٍ يتجاوز مئتي مقالة في المجلات وأوراق المؤتمرات وفصول الكتب. السجلّ الكامل والمحدَّث باستمرار متاح على Scopus وGoogle Scholar.',
-    filterAll: 'الكل', filterJournal: 'مقالات المجلات', filterConference: 'أوراق المؤتمرات', filterChapter: 'فصول الكتب',
+    filterAll: 'الكل', filterJournal: 'مقالات المجلات', filterConference: 'أوراق المؤتمرات',
+    filterChapter: 'فصول الكتب', filterPreprint: 'مسوَّدات',
     pubAllScopus: 'عرض القائمة الكاملة على Scopus', pubAllScholar: 'عرض القائمة الكاملة على Google Scholar',
 
     booksKicker: 'التأليف والترجمة', booksTitle: 'الكتب',
     booksLede: 'عناوين علمية وتعليمية منشورة بالفارسية والإنجليزية. تُحفظ قائمة العناوين المسجَّلة على موقع إيران‌كتاب.',
     booksAll: 'قائمة الكتب الكاملة على إيران‌كتاب',
     booksEmpty: 'تُحفظ قائمة العناوين المنشورة على موقع إيران‌كتاب. وستُدرج هنا العناوين الموثَّقة.',
-    pubNote: 'تقتصر هذه المختارات على السجلات المؤكَّدة مقابل DBLP وشپرينغر وملفات المؤلِّف المفهرسة. وهي قائمة جزئية — أما السجل الكامل والمرجعي فمتاح على Scopus وGoogle Scholar.',
+    pubNote: 'كل مدخل هنا موثَّق مقابل DBLP أو شپرينغر أو arXiv أو ملفات المؤلِّف المفهرسة. ومع ذلك فهي مختارات لا السجل كاملاً — أما السجل الكامل والمرجعي فمتاح على Scopus وGoogle Scholar.',
 
     teachKicker: 'الدراسات العليا والبكالوريوس', teachTitle: 'التدريس والإشراف',
     teachLede: 'مقرَّرات تُدرَّس ضمن مناهج الرياضيات وعلوم الحاسوب، إلى جانب الإشراف على أبحاث الماجستير والدكتوراه.',

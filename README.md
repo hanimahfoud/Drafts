@@ -103,11 +103,13 @@ Every one of those domains was blocked by the build environment's network egress
 the details below could only be reconstructed from search-result summaries. Two deliberate
 choices follow from that:
 
-- **Publications** — only records that could be confirmed against DBLP, Springer or the
-  author's indexed profiles are listed. Several papers that surface under the name "Vahidi"
-  in this research area belong to **A. R. Vahidi of Islamic Azad University**, a different
-  researcher, and were excluded rather than risk misattribution. The list is therefore short
-  and explicitly labelled as partial; expand it from Scopus and Google Scholar.
+- **Publications** — every one of the eleven entries carries a DOI or arXiv ID verified
+  against DBLP, Springer, World Scientific or arXiv. Papers that surface under the name
+  "Vahidi" in the numerical-analysis literature but belong to **A. R. Vahidi of Islamic Azad
+  University**, a different researcher, are deliberately excluded. The list is still a
+  selection rather than the full record; expand it from Scopus and Google Scholar.
+  Filter chips are generated from the types present in the data, so adding the first
+  conference paper makes its chip appear automatically.
 - **Books** — `SITE_DATA.books` is intentionally empty. The Iranketab catalogue was
   unreachable and inventing plausible titles would misrepresent the author's work, so the
   section renders a link to Iranketab until real entries are added.

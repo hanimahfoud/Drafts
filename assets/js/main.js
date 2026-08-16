@@ -89,6 +89,7 @@
   function renderAll() {
     renderCards('#philCards', SITE_DATA.philosophy);
     renderResearch();
+    renderFilters();
     renderPublications();
     renderBooks();
     renderTeaching();
@@ -113,6 +114,32 @@
                '<p>' + c.d + '</p>' +
              '</article>';
     }).join('');
+  }
+
+  /* Chips are built from the types actually present in the data, so a
+     category with no entries never renders an empty filter. */
+  const FILTER_ORDER = ['journal', 'conference', 'chapter', 'preprint'];
+  const FILTER_KEY = {
+    journal: 'filterJournal', conference: 'filterConference',
+    chapter: 'filterChapter', preprint: 'filterPreprint'
+  };
+
+  function renderFilters() {
+    const host = $('#pubFilters');
+    if (!host) return;
+
+    const present = SITE_DATA.publications.map(function (p) { return p.type; });
+    const types = FILTER_ORDER.filter(function (t) { return present.indexOf(t) !== -1; });
+
+    if (types.indexOf(currentFilter) === -1) currentFilter = 'all';
+
+    const chip = function (f, label) {
+      return '<button type="button" class="chip' + (f === currentFilter ? ' is-active' : '') +
+             '" data-filter="' + f + '">' + label + '</button>';
+    };
+
+    host.innerHTML = chip('all', I18N[lang].filterAll) +
+      types.map(function (t) { return chip(t, I18N[lang][FILTER_KEY[t]] || t); }).join('');
   }
 
   function renderPublications() {
