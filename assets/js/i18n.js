@@ -13,7 +13,7 @@ const I18N = {
     brandName: 'Dr. Javad Vahidi',
     brandRole: 'Associate Professor · IUST',
 
-    navAbout: 'About', navResearch: 'Research', navPublications: 'Publications',
+    navAbout: 'About', navPhilosophy: 'Philosophy', navResearch: 'Research', navPublications: 'Publications',
     navBooks: 'Books', navTeaching: 'Teaching', navProfiles: 'Profiles', navContact: 'Contact',
 
     heroEyebrow: 'Iran University of Science and Technology',
@@ -25,8 +25,8 @@ const I18N = {
     portraitCaption: 'Dr. Javad Vahidi',
 
     metricCitations: 'Citations', metricHindex: 'h-index',
-    metricPubs: 'Publications', metricYears: 'Years of academic service',
-    metricsNote: 'Indicative figures compiled from indexed profiles (Google Scholar, Scopus, ResearchGate). Consult the linked profiles for live values.',
+    metricI10: 'i10-index', metricPubs: 'Publications',
+    metricsNote: 'Citation, h-index and i10-index figures are taken from Google Scholar; the publication count is from ResearchGate. Follow the linked profiles for live values.',
 
     aboutKicker: 'Biography', aboutTitle: 'About',
     aboutP1: 'Dr. Javad Vahidi is an Associate Professor and Head of the Department of Computer Science within the School of Mathematics and Computer Science at Iran University of Science and Technology (IUST) in Tehran. His work sits at the meeting point of applied mathematics and computer science, and he is known for research that carries rigorous mathematical method into practical computational problems.',
@@ -42,6 +42,10 @@ const I18N = {
     factLoc: 'Location',         factLocV: 'Tehran, Iran',
     factEmail: 'Email',
     factDegree: 'Highest degree', factDegreeV: 'Ph.D. in Applied Mathematics',
+
+    philKicker: 'Guiding principles', philTitle: 'Philosophy',
+    philLede: 'On the essence of learning mathematics and computer science — and what a student should carry out of a lecture hall long after the syllabus is forgotten.',
+    philQuote: 'Mathematics is not a body of formulas to be memorised, but a discipline of thought — a way of asking a question precisely, reasoning about it honestly, and reaching a conclusion that withstands scrutiny. Computer science is where that discipline meets the world and is asked to prove itself.',
 
     researchKicker: 'Areas of expertise', researchTitle: 'Research Interests',
     researchLede: 'A research programme that connects classical mathematical analysis with contemporary computational intelligence.',
@@ -83,7 +87,7 @@ const I18N = {
     brandName: 'دکتر جواد وحیدی',
     brandRole: 'دانشیار · دانشگاه علم و صنعت ایران',
 
-    navAbout: 'درباره', navResearch: 'پژوهش', navPublications: 'انتشارات',
+    navAbout: 'درباره', navPhilosophy: 'فلسفه علمی', navResearch: 'پژوهش', navPublications: 'انتشارات',
     navBooks: 'کتاب‌ها', navTeaching: 'تدریس', navProfiles: 'پروفایل‌ها', navContact: 'تماس',
 
     heroEyebrow: 'دانشگاه علم و صنعت ایران',
@@ -95,8 +99,8 @@ const I18N = {
     portraitCaption: 'دکتر جواد وحیدی',
 
     metricCitations: 'ارجاعات', metricHindex: 'شاخص h',
-    metricPubs: 'انتشارات', metricYears: 'سال فعالیت دانشگاهی',
-    metricsNote: 'ارقام ارائه‌شده بر پایه پروفایل‌های نمایه‌شده (گوگل اسکالر، اسکوپوس، ریسرچ‌گیت) گردآوری شده است. برای مقادیر به‌روز به پیوندهای رسمی مراجعه فرمایید.',
+    metricI10: 'شاخص i10', metricPubs: 'انتشارات',
+    metricsNote: 'ارقام ارجاعات، شاخص h و شاخص i10 از گوگل اسکالر و شمار انتشارات از ریسرچ‌گیت گرفته شده است. برای مقادیر به‌روز به پیوندهای رسمی مراجعه فرمایید.',
 
     aboutKicker: 'زندگی‌نامه علمی', aboutTitle: 'درباره',
     aboutP1: 'دکتر جواد وحیدی دانشیار و مدیر گروه علوم کامپیوتر دانشکده ریاضی و علوم کامپیوتر دانشگاه علم و صنعت ایران در تهران است. حوزه کاری ایشان در نقطه تلاقی ریاضیات کاربردی و علوم کامپیوتر قرار دارد و پژوهش‌هایشان به کاربست روش‌های دقیق ریاضی در مسائل عملی محاسباتی شناخته می‌شود.',
@@ -112,6 +116,10 @@ const I18N = {
     factLoc: 'محل',           factLocV: 'تهران، ایران',
     factEmail: 'رایانامه',
     factDegree: 'بالاترین مدرک', factDegreeV: 'دکتری ریاضیات کاربردی',
+
+    philKicker: 'اصول راهنما', philTitle: 'فلسفه علمی',
+    philLede: 'درباره جوهر آموختن ریاضیات و علوم کامپیوتر — و آنچه دانشجو باید سال‌ها پس از فراموش‌شدن سرفصل‌ها با خود از کلاس بیرون ببرد.',
+    philQuote: 'ریاضیات انبوهی از فرمول‌ها برای حفظ‌کردن نیست، بلکه انضباطی در اندیشیدن است — راهی برای پرسیدنِ دقیق، استدلالِ صادقانه، و رسیدن به نتیجه‌ای که در برابر نقد تاب می‌آورد. علوم کامپیوتر آنجاست که این انضباط با جهان واقعی روبه‌رو می‌شود و از آن خواسته می‌شود خود را اثبات کند.',
 
     researchKicker: 'حوزه‌های تخصصی', researchTitle: 'زمینه‌های پژوهشی',
     researchLede: 'برنامه‌ای پژوهشی که آنالیز ریاضی کلاسیک را به هوش محاسباتی معاصر پیوند می‌زند.',
@@ -153,7 +161,7 @@ const I18N = {
     brandName: 'د. جواد وحيدي',
     brandRole: 'أستاذ مشارك · جامعة إيران للعلوم والتكنولوجيا',
 
-    navAbout: 'نبذة', navResearch: 'البحث', navPublications: 'المنشورات',
+    navAbout: 'نبذة', navPhilosophy: 'الفلسفة', navResearch: 'البحث', navPublications: 'المنشورات',
     navBooks: 'الكتب', navTeaching: 'التدريس', navProfiles: 'الملفات', navContact: 'التواصل',
 
     heroEyebrow: 'جامعة إيران للعلوم والتكنولوجيا',
@@ -165,8 +173,8 @@ const I18N = {
     portraitCaption: 'الدكتور جواد وحيدي',
 
     metricCitations: 'الاستشهادات', metricHindex: 'مؤشر h',
-    metricPubs: 'المنشورات', metricYears: 'سنوات من العمل الأكاديمي',
-    metricsNote: 'أرقام استرشادية مجمَّعة من الملفات المفهرسة (Google Scholar وScopus وResearchGate). يُرجى مراجعة الروابط الرسمية للاطّلاع على القيم المحدَّثة.',
+    metricI10: 'مؤشر i10', metricPubs: 'المنشورات',
+    metricsNote: 'أرقام الاستشهادات ومؤشرَي h وi10 مأخوذة من Google Scholar، وعدد المنشورات من ResearchGate. يُرجى مراجعة الروابط الرسمية للاطّلاع على القيم المحدَّثة.',
 
     aboutKicker: 'السيرة العلمية', aboutTitle: 'نبذة',
     aboutP1: 'الدكتور جواد وحيدي أستاذ مشارك ورئيس قسم علوم الحاسوب في كلية الرياضيات وعلوم الحاسوب بجامعة إيران للعلوم والتكنولوجيا في طهران. يقع عمله عند ملتقى الرياضيات التطبيقية وعلوم الحاسوب، ويُعرف ببحوثٍ تنقل المنهج الرياضي الدقيق إلى المسائل الحاسوبية العملية.',
@@ -182,6 +190,10 @@ const I18N = {
     factLoc: 'الموقع',            factLocV: 'طهران، إيران',
     factEmail: 'البريد الإلكتروني',
     factDegree: 'أعلى مؤهل',      factDegreeV: 'دكتوراه في الرياضيات التطبيقية',
+
+    philKicker: 'مبادئ ناظمة', philTitle: 'الفلسفة العلمية',
+    philLede: 'في جوهر تعلُّم الرياضيات وعلوم الحاسوب — وما ينبغي أن يخرج به الطالب من القاعة بعد أن تُنسى المفردات الدراسية بزمن طويل.',
+    philQuote: 'الرياضيات ليست حشداً من الصِّيَغ تُحفَظ، بل انضباطٌ في التفكير — طريقةٌ في طرح السؤال بدقّة، والاستدلال عليه بأمانة، وبلوغ نتيجةٍ تصمد أمام التمحيص. وعلوم الحاسوب هي حيث يلتقي هذا الانضباط بالعالم فيُطالَب بأن يُثبت نفسه.',
 
     researchKicker: 'مجالات الاختصاص', researchTitle: 'الاهتمامات البحثية',
     researchLede: 'برنامج بحثي يصل التحليل الرياضي الكلاسيكي بالذكاء الحاسوبي المعاصر.',
