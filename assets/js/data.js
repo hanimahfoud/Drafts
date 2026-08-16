@@ -122,11 +122,43 @@ const SITE_DATA = {
   publications: [
     {
       type: 'journal', year: '2025',
-      title: 'Quantum-inspired multi-agent reinforcement learning for exploration–exploitation optimization in UAV-assisted 6G network deployment',
+      title: 'Quantum-inspired multi-agent reinforcement learning for exploration&ndash;exploitation optimization in UAV-assisted 6G network deployment',
       authors: 'M. Taghavi, J. Vahidi',
       venue: { en: 'Quantum Machine Intelligence (Springer)', fa: 'Quantum Machine Intelligence (اشپرینگر)', ar: 'Quantum Machine Intelligence (شپرينغر)' },
-      url: 'https://link.springer.com/article/10.1007/s42484-025-00335-8',
+      url: 'https://doi.org/10.1007/s42484-025-00335-8',
       tags: ['Quantum ML', 'Reinforcement Learning', '6G']
+    },
+    {
+      type: 'chapter', year: '2025',
+      title: 'Picard Method',
+      authors: 'J. Vahidi et al.',
+      venue: { en: 'Springer Nature — book chapter', fa: 'اشپرینگر نیچر — فصل کتاب', ar: 'شپرينغر نيتشر — فصل من كتاب' },
+      url: 'https://doi.org/10.1007/978-3-031-96704-7_4',
+      tags: ['Numerical Analysis', 'Picard Iteration']
+    },
+    {
+      type: 'preprint', year: '2025',
+      title: 'The Potential of Large Language Models in Supply Chain Management: Advancing Decision-Making, Efficiency, and Innovation',
+      authors: 'M. Aghaei, J. Vahidi et al.',
+      venue: { en: 'arXiv:2501.15411 — preprint', fa: 'arXiv:2501.15411 — پیش‌چاپ', ar: 'arXiv:2501.15411 — مسوَّدة' },
+      url: 'https://arxiv.org/abs/2501.15411',
+      tags: ['LLM', 'Supply Chain', 'Decision Making']
+    },
+    {
+      type: 'preprint', year: '2025',
+      title: 'Harnessing the Potential of Large Language Models in Modern Marketing Management: Applications, Future Directions, and Strategic Recommendations',
+      authors: 'M. Aghaei, J. Vahidi et al.',
+      venue: { en: 'arXiv:2501.10685 — preprint', fa: 'arXiv:2501.10685 — پیش‌چاپ', ar: 'arXiv:2501.10685 — مسوَّدة' },
+      url: 'https://arxiv.org/abs/2501.10685',
+      tags: ['LLM', 'Marketing', 'Strategy']
+    },
+    {
+      type: 'journal', year: '2024',
+      title: 'An end-to-end multi-task deep learning framework for bronchoscopy image classification',
+      authors: 'R. Setayeshi, J. Vahidi, E. Kozegar, T. Tan',
+      venue: { en: 'Multimedia Systems (Springer)', fa: 'Multimedia Systems (اشپرینگر)', ar: 'Multimedia Systems (شپرينغر)' },
+      url: 'https://doi.org/10.1007/s00530-024-01579-3',
+      tags: ['Medical Imaging', 'Deep Learning', 'Multi-task']
     },
     {
       type: 'journal', year: '2024',
@@ -138,6 +170,22 @@ const SITE_DATA = {
     },
     {
       type: 'journal', year: '2023',
+      title: 'Credit card fraud detection using ensemble data mining methods',
+      authors: 'S. Bakhtiari, Z. Nasiri, J. Vahidi',
+      venue: { en: 'Multimedia Tools and Applications (Springer)', fa: 'Multimedia Tools and Applications (اشپرینگر)', ar: 'Multimedia Tools and Applications (شپرينغر)' },
+      url: 'https://doi.org/10.1007/s11042-023-14698-2',
+      tags: ['Fraud Detection', 'Ensemble Learning', 'Data Mining']
+    },
+    {
+      type: 'journal', year: '2023',
+      title: 'Removal of Speckle Noises from Ultrasound Images Using Parallel Convolutional Neural Network',
+      authors: 'H. Salehi, J. Vahidi',
+      venue: { en: 'Circuits, Systems, and Signal Processing (Springer)', fa: 'Circuits, Systems, and Signal Processing (اشپرینگر)', ar: 'Circuits, Systems, and Signal Processing (شپرينغر)' },
+      url: 'https://doi.org/10.1007/s00034-023-02349-8',
+      tags: ['Ultrasound', 'CNN', 'Denoising']
+    },
+    {
+      type: 'journal', year: '2023',
       title: 'Morphology of composition functions in Persian sentences through a newly proposed classified fuzzy method and center of gravity defuzzification method',
       authors: 'J. Vahidi et al.',
       venue: { en: 'Journal of Intelligent &amp; Fuzzy Systems (IOS Press)', fa: 'Journal of Intelligent &amp; Fuzzy Systems', ar: 'Journal of Intelligent &amp; Fuzzy Systems' },
@@ -145,22 +193,20 @@ const SITE_DATA = {
       tags: ['Fuzzy Logic', 'NLP', 'Defuzzification']
     },
     {
-      type: 'chapter', year: '2025',
-      title: 'Picard Method',
-      authors: 'J. Vahidi et al.',
-      venue: { en: 'Springer Nature — book chapter', fa: 'اشپرینگر نیچر — فصل کتاب', ar: 'شپرينغر نيتشر — فصل من كتاب' },
-      url: 'https://link.springer.com/chapter/10.1007/978-3-031-96704-7_4',
-      tags: ['Numerical Analysis', 'Picard Iteration']
+      type: 'journal', year: '2020',
+      title: 'An Ultrasound Image Despeckling Method Based on Weighted Adaptive Bilateral Filter',
+      authors: 'H. Salehi, J. Vahidi',
+      venue: { en: 'International Journal of Image and Graphics 20(2), 2050020', fa: 'International Journal of Image and Graphics ۲۰(۲)', ar: 'International Journal of Image and Graphics 20(2)' },
+      url: 'https://doi.org/10.1142/S0219467820500205',
+      tags: ['Ultrasound', 'Bilateral Filter', 'Denoising']
     },
     {
-      type: 'journal', year: '—',
-      title: 'Stability of functional equations in inner product spaces and non-Archimedean random normed spaces',
-      authors: 'J. Vahidi et al.',
-      venue: { en: 'Journal article — see Google Scholar for the full record',
-               fa: 'مقاله نشریه — برای رکورد کامل به گوگل اسکالر مراجعه کنید',
-               ar: 'مقالة في مجلة — راجع Google Scholar للسجل الكامل' },
-      url: 'https://scholar.google.com/citations?user=fyeiLYMAAAAJ&hl=en',
-      tags: ['Functional Analysis', 'Normed Spaces']
+      type: 'journal', year: '2018',
+      title: 'A Robust Hybrid Filter Based on Evolutionary Intelligence and Fuzzy Evaluation',
+      authors: 'H. Salehi, J. Vahidi, H. Motameni',
+      venue: { en: 'International Journal of Image and Graphics 18(4), 1850023', fa: 'International Journal of Image and Graphics ۱۸(۴)', ar: 'International Journal of Image and Graphics 18(4)' },
+      url: 'https://doi.org/10.1142/S0219467818500237',
+      tags: ['Evolutionary Computing', 'Fuzzy Systems', 'Image Filtering']
     }
   ],
 

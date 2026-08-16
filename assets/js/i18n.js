@@ -21,7 +21,8 @@ const I18N = {
     heroTitle: 'Associate Professor of Computer Science &amp; Applied Mathematics',
     heroAffil: 'Head, Department of Computer Science · School of Mathematics and Computer Science · IUST, Tehran, Iran',
     heroLede: 'Research spanning mathematics for computer science, optimization, deep learning, numerical analysis and information security — with more than two decades of teaching, supervision and peer-reviewed publication.',
-    btnScopus: 'Scopus Profile', btnScholar: 'Google Scholar', btnEmail: 'jvahidi@iust.ac.ir',
+    btnScopus: 'Scopus Profile', btnScholar: 'Google Scholar', btnRG: 'ResearchGate',
+    btnEmail: 'jvahidi@iust.ac.ir',
     portraitCaption: 'Dr. Javad Vahidi',
 
     metricCitations: 'Citations', metricHindex: 'h-index',
@@ -52,14 +53,15 @@ const I18N = {
 
     pubKicker: 'Peer-reviewed output', pubTitle: 'Selected Publications',
     pubLede: 'A selection from a body of work exceeding two hundred journal articles, conference papers and book chapters. The complete and continuously updated record is available on Scopus and Google Scholar.',
-    filterAll: 'All', filterJournal: 'Journal articles', filterConference: 'Conference papers', filterChapter: 'Book chapters',
+    filterAll: 'All', filterJournal: 'Journal articles', filterConference: 'Conference papers',
+    filterChapter: 'Book chapters', filterPreprint: 'Preprints',
     pubAllScopus: 'View full list on Scopus', pubAllScholar: 'View full list on Google Scholar',
 
     booksKicker: 'Authored &amp; translated works', booksTitle: 'Books',
     booksLede: 'Scholarly and instructional titles published in Persian and English. A catalogue of listed titles is maintained on Iranketab.',
     booksAll: 'Full book listing on Iranketab',
     booksEmpty: 'The catalogue of published titles is maintained on Iranketab. Verified entries will be listed here.',
-    pubNote: 'This selection lists only records confirmed against DBLP, Springer and the author&rsquo;s indexed profiles. It is a partial view — the authoritative, complete list is on Scopus and Google Scholar.',
+    pubNote: 'Each entry here has been verified against DBLP, Springer, arXiv or the author&rsquo;s indexed profiles. It remains a selection rather than the whole record — the authoritative, complete list is on Scopus and Google Scholar.',
 
     teachKicker: 'Graduate &amp; undergraduate', teachTitle: 'Teaching &amp; Supervision',
     teachLede: 'Courses taught across the mathematics and computer science curriculum, together with supervision of master&rsquo;s and doctoral research.',
@@ -70,9 +72,14 @@ const I18N = {
 
     contactKicker: 'Get in touch', contactTitle: 'Contact',
     contactEmailT: 'Email',
+    contactPhoneT: 'Telephone', contactExtT: 'Extension', contactFaxT: 'Fax',
     contactAddrT: 'Office',
-    contactAddrV: 'School of Mathematics and Computer Science, Iran University of Science and Technology, Hengam Street, Resalat Square, Narmak, Tehran 16846-13114, Iran',
+    contactAddrV: 'School of Mathematics and Computer Science, Iran University of Science and Technology, Hengam Street, Resalat Square, Tehran, Iran',
+    contactPostT: 'Postal code',
     contactDeptT: 'Department', contactDeptV: 'Department of Computer Science — IUST',
+    contactCta: 'Send me an email',
+    contactCtaNote: 'Opens a Gmail compose window.',
+    contactCtaAlt: 'Or use your own mail app',
 
     footerAffil: 'Iran University of Science and Technology',
     footerCopy: '© 2026 Dr. Javad Vahidi. All rights reserved.'
@@ -95,7 +102,8 @@ const I18N = {
     heroTitle: 'دانشیار علوم کامپیوتر و ریاضیات کاربردی',
     heroAffil: 'مدیر گروه علوم کامپیوتر · دانشکده ریاضی و علوم کامپیوتر · دانشگاه علم و صنعت ایران، تهران',
     heroLede: 'پژوهش در گستره ریاضیات علوم کامپیوتر، بهینه‌سازی، یادگیری عمیق، آنالیز عددی و امنیت اطلاعات — همراه با بیش از دو دهه تدریس، راهنمایی دانشجویان و انتشار مقالات داوری‌شده.',
-    btnScopus: 'پروفایل اسکوپوس', btnScholar: 'گوگل اسکالر', btnEmail: 'jvahidi@iust.ac.ir',
+    btnScopus: 'پروفایل اسکوپوس', btnScholar: 'گوگل اسکالر', btnRG: 'ریسرچ‌گیت',
+    btnEmail: 'jvahidi@iust.ac.ir',
     portraitCaption: 'دکتر جواد وحیدی',
 
     metricCitations: 'ارجاعات', metricHindex: 'شاخص h',
@@ -126,14 +134,15 @@ const I18N = {
 
     pubKicker: 'دستاوردهای داوری‌شده', pubTitle: 'انتشارات منتخب',
     pubLede: 'گزیده‌ای از مجموعه‌ای بیش از دویست مقاله نشریه، مقاله کنفرانس و فصل کتاب. فهرست کامل و پیوسته به‌روزشده در اسکوپوس و گوگل اسکالر در دسترس است.',
-    filterAll: 'همه', filterJournal: 'مقالات نشریه', filterConference: 'مقالات کنفرانس', filterChapter: 'فصول کتاب',
+    filterAll: 'همه', filterJournal: 'مقالات نشریه', filterConference: 'مقالات کنفرانس',
+    filterChapter: 'فصول کتاب', filterPreprint: 'پیش‌چاپ‌ها',
     pubAllScopus: 'مشاهده فهرست کامل در اسکوپوس', pubAllScholar: 'مشاهده فهرست کامل در گوگل اسکالر',
 
     booksKicker: 'تألیف و ترجمه', booksTitle: 'کتاب‌ها',
     booksLede: 'عناوین علمی و آموزشی منتشرشده به زبان فارسی و انگلیسی. فهرست عناوین ثبت‌شده در ایران‌کتاب نگهداری می‌شود.',
     booksAll: 'فهرست کامل کتاب‌ها در ایران‌کتاب',
     booksEmpty: 'فهرست عناوین منتشرشده در ایران‌کتاب نگهداری می‌شود. عناوین تأییدشده در این بخش درج خواهد شد.',
-    pubNote: 'این گزیده تنها شامل رکوردهایی است که با DBLP، اشپرینگر و پروفایل‌های نمایه‌شده نویسنده تطبیق داده شده‌اند. این فهرست جزئی است — سیاهه کامل و مرجع در اسکوپوس و گوگل اسکالر در دسترس است.',
+    pubNote: 'هر مدخل این فهرست با DBLP، اشپرینگر، arXiv یا پروفایل‌های نمایه‌شده نویسنده راستی‌آزمایی شده است. با این حال گزیده‌ای است نه همه کارنامه — سیاهه کامل و مرجع در اسکوپوس و گوگل اسکالر در دسترس است.',
 
     teachKicker: 'تحصیلات تکمیلی و کارشناسی', teachTitle: 'تدریس و راهنمایی',
     teachLede: 'دروس ارائه‌شده در برنامه ریاضی و علوم کامپیوتر، همراه با راهنمایی پژوهش‌های کارشناسی ارشد و دکتری.',
@@ -144,9 +153,14 @@ const I18N = {
 
     contactKicker: 'ارتباط با ما', contactTitle: 'تماس',
     contactEmailT: 'رایانامه',
+    contactPhoneT: 'تلفن', contactExtT: 'داخلی', contactFaxT: 'دورنگار',
     contactAddrT: 'دفتر',
-    contactAddrV: 'دانشکده ریاضی و علوم کامپیوتر، دانشگاه علم و صنعت ایران، خیابان هنگام، میدان رسالت، نارمک، تهران ۱۶۸۴۶-۱۳۱۱۴، ایران',
+    contactAddrV: 'دانشکده ریاضی و علوم کامپیوتر، دانشگاه علم و صنعت ایران، خیابان هنگام، میدان رسالت، تهران، ایران',
+    contactPostT: 'کدپستی',
     contactDeptT: 'گروه آموزشی', contactDeptV: 'گروه علوم کامپیوتر — دانشگاه علم و صنعت ایران',
+    contactCta: 'برای من ایمیل بفرستید',
+    contactCtaNote: 'پنجره نگارش جی‌میل را باز می‌کند.',
+    contactCtaAlt: 'یا از برنامه رایانامه خودتان استفاده کنید',
 
     footerAffil: 'دانشگاه علم و صنعت ایران',
     footerCopy: '© ۲۰۲۶ دکتر جواد وحیدی. کلیه حقوق محفوظ است.'
@@ -169,7 +183,8 @@ const I18N = {
     heroTitle: 'أستاذ مشارك في علوم الحاسوب والرياضيات التطبيقية',
     heroAffil: 'رئيس قسم علوم الحاسوب · كلية الرياضيات وعلوم الحاسوب · جامعة إيران للعلوم والتكنولوجيا، طهران',
     heroLede: 'بحثٌ يمتدّ عبر رياضيات علوم الحاسوب والأمثلية والتعلّم العميق والتحليل العددي وأمن المعلومات — مع أكثر من عقدين من التدريس والإشراف والنشر المُحكَّم.',
-    btnScopus: 'الملف على Scopus', btnScholar: 'Google Scholar', btnEmail: 'jvahidi@iust.ac.ir',
+    btnScopus: 'الملف على Scopus', btnScholar: 'Google Scholar', btnRG: 'ResearchGate',
+    btnEmail: 'jvahidi@iust.ac.ir',
     portraitCaption: 'الدكتور جواد وحيدي',
 
     metricCitations: 'الاستشهادات', metricHindex: 'مؤشر h',
@@ -200,14 +215,15 @@ const I18N = {
 
     pubKicker: 'الإنتاج المُحكَّم', pubTitle: 'منشورات مختارة',
     pubLede: 'مختارات من نتاجٍ يتجاوز مئتي مقالة في المجلات وأوراق المؤتمرات وفصول الكتب. السجلّ الكامل والمحدَّث باستمرار متاح على Scopus وGoogle Scholar.',
-    filterAll: 'الكل', filterJournal: 'مقالات المجلات', filterConference: 'أوراق المؤتمرات', filterChapter: 'فصول الكتب',
+    filterAll: 'الكل', filterJournal: 'مقالات المجلات', filterConference: 'أوراق المؤتمرات',
+    filterChapter: 'فصول الكتب', filterPreprint: 'مسوَّدات',
     pubAllScopus: 'عرض القائمة الكاملة على Scopus', pubAllScholar: 'عرض القائمة الكاملة على Google Scholar',
 
     booksKicker: 'التأليف والترجمة', booksTitle: 'الكتب',
     booksLede: 'عناوين علمية وتعليمية منشورة بالفارسية والإنجليزية. تُحفظ قائمة العناوين المسجَّلة على موقع إيران‌كتاب.',
     booksAll: 'قائمة الكتب الكاملة على إيران‌كتاب',
     booksEmpty: 'تُحفظ قائمة العناوين المنشورة على موقع إيران‌كتاب. وستُدرج هنا العناوين الموثَّقة.',
-    pubNote: 'تقتصر هذه المختارات على السجلات المؤكَّدة مقابل DBLP وشپرينغر وملفات المؤلِّف المفهرسة. وهي قائمة جزئية — أما السجل الكامل والمرجعي فمتاح على Scopus وGoogle Scholar.',
+    pubNote: 'كل مدخل هنا موثَّق مقابل DBLP أو شپرينغر أو arXiv أو ملفات المؤلِّف المفهرسة. ومع ذلك فهي مختارات لا السجل كاملاً — أما السجل الكامل والمرجعي فمتاح على Scopus وGoogle Scholar.',
 
     teachKicker: 'الدراسات العليا والبكالوريوس', teachTitle: 'التدريس والإشراف',
     teachLede: 'مقرَّرات تُدرَّس ضمن مناهج الرياضيات وعلوم الحاسوب، إلى جانب الإشراف على أبحاث الماجستير والدكتوراه.',
@@ -218,9 +234,14 @@ const I18N = {
 
     contactKicker: 'تواصل معنا', contactTitle: 'التواصل',
     contactEmailT: 'البريد الإلكتروني',
+    contactPhoneT: 'الهاتف', contactExtT: 'تحويلة', contactFaxT: 'الفاكس',
     contactAddrT: 'المكتب',
-    contactAddrV: 'كلية الرياضيات وعلوم الحاسوب، جامعة إيران للعلوم والتكنولوجيا، شارع هنغام، ميدان رسالت، نارمك، طهران ١٦٨٤٦-١٣١١٤، إيران',
+    contactAddrV: 'كلية الرياضيات وعلوم الحاسوب، جامعة إيران للعلوم والتكنولوجيا، شارع هنغام، ميدان رسالت، طهران، إيران',
+    contactPostT: 'الرمز البريدي',
     contactDeptT: 'القسم', contactDeptV: 'قسم علوم الحاسوب — جامعة إيران للعلوم والتكنولوجيا',
+    contactCta: 'راسِلني عبر البريد',
+    contactCtaNote: 'يفتح نافذة إنشاء رسالة في Gmail.',
+    contactCtaAlt: 'أو استخدم تطبيق بريدك الخاص',
 
     footerAffil: 'جامعة إيران للعلوم والتكنولوجيا',
     footerCopy: '© ٢٠٢٦ الدكتور جواد وحيدي. جميع الحقوق محفوظة.'

@@ -434,6 +434,19 @@ html[dir="rtl"] .profile-card:hover .profile-arrow{transform:translateX(-3px)}
 .contact-card h3{font-size:1rem;margin-bottom:.45rem}
 .contact-card p{font-size:.89rem;line-height:1.7}
 .contact-card a{color:var(--gold);border-bottom:1px solid color-mix(in srgb,var(--gold) 35%,transparent)}
+.contact-lines{display:flex;flex-direction:column;gap:.15rem;align-items:flex-start}
+.contact-sub{display:block;font-size:.82rem;color:var(--muted);margin-top:.2rem}
+.contact-sub bdi{color:var(--body);font-weight:500}
+
+/* Email call-to-action */
+.contact-cta{margin-top:2.2rem;text-align:center}
+.btn-lg{padding:.92rem 1.9rem;font-size:.95rem}
+.btn-lg svg{width:19px;height:19px}
+.contact-cta-note{margin-top:.85rem;font-size:.82rem;color:var(--muted)}
+.contact-cta-note a{
+  color:var(--gold);margin-inline-start:.4rem;
+  border-bottom:1px solid color-mix(in srgb,var(--gold) 35%,transparent);
+}
 
 /* =========================================================
    FOOTER

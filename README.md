@@ -18,6 +18,10 @@ School of Mathematics and Computer Science, Iran University of Science and Techn
 - **Monogram** (header, footer, favicon) carries a circuit-trace and binary motif on navy,
   defined once as an inline SVG data URI in `.brand-mark` and mirrored in `favicon.svg`.
 - **Filterable publication list** (journal articles / conference papers / book chapters).
+- **Contact block** with a Gmail compose call-to-action, a `tel:` link, and a `mailto:`
+  fallback for anyone not using Gmail.
+- **Versioned asset URLs** (`?v=N` on the stylesheet, scripts and favicon) so a redeploy is
+  picked up without a hard refresh — bump `N` in `index.html` whenever those files change.
 - Sections: Hero · Metrics · About · Philosophy · Research Interests · Publications ·
   Books · Teaching & Supervision · Academic Profiles · Contact.
 - Accessible: skip link, focus rings, semantic landmarks, `prefers-reduced-motion` support,
@@ -82,6 +86,12 @@ Almost all content lives in `assets/js/data.js` and `assets/js/i18n.js`:
 - **Philosophy** — the pull-quote is `philQuote` in `i18n.js`, the three principle cards are
   `SITE_DATA.philosophy` in `data.js`.
 
+## Contact details
+
+Telephone, fax, postal code and street address are transcribed from the official IUST
+contact card: tel +98 21 7322 5424 (ext. 5424), fax +98 21 7724 0302, postal code
+1684613114, Hengam Street, Resalat Square, Tehran.
+
 ## Note on sourcing
 
 Biographical details, affiliation, research areas, metrics and publications were compiled
@@ -93,11 +103,13 @@ Every one of those domains was blocked by the build environment's network egress
 the details below could only be reconstructed from search-result summaries. Two deliberate
 choices follow from that:
 
-- **Publications** — only records that could be confirmed against DBLP, Springer or the
-  author's indexed profiles are listed. Several papers that surface under the name "Vahidi"
-  in this research area belong to **A. R. Vahidi of Islamic Azad University**, a different
-  researcher, and were excluded rather than risk misattribution. The list is therefore short
-  and explicitly labelled as partial; expand it from Scopus and Google Scholar.
+- **Publications** — every one of the eleven entries carries a DOI or arXiv ID verified
+  against DBLP, Springer, World Scientific or arXiv. Papers that surface under the name
+  "Vahidi" in the numerical-analysis literature but belong to **A. R. Vahidi of Islamic Azad
+  University**, a different researcher, are deliberately excluded. The list is still a
+  selection rather than the full record; expand it from Scopus and Google Scholar.
+  Filter chips are generated from the types present in the data, so adding the first
+  conference paper makes its chip appear automatically.
 - **Books** — `SITE_DATA.books` is intentionally empty. The Iranketab catalogue was
   unreachable and inventing plausible titles would misrepresent the author's work, so the
   section renders a link to Iranketab until real entries are added.
@@ -108,6 +120,5 @@ that he did not say. If he would rather speak in the first person, replace `phil
 three `SITE_DATA.philosophy` entries with his own words.
 
 Still to verify against the primary sources: exact degree years and awarding institutions,
-the full publication record, book titles and ISBNs, the precise office address and room
-number, the publication-count figure in `index.html`, and the course and supervision lists in
+the full publication record, book titles and ISBNs, the publication-count figure in `index.html`, and the course and supervision lists in
 `data.js` — the latter two are representative of the role rather than individually confirmed.
