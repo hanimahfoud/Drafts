@@ -21,7 +21,8 @@ const I18N = {
     heroTitle: 'Associate Professor of Computer Science &amp; Applied Mathematics',
     heroAffil: 'Head, Department of Computer Science · School of Mathematics and Computer Science · IUST, Tehran, Iran',
     heroLede: 'Research spanning mathematics for computer science, optimization, deep learning, numerical analysis and information security — with more than two decades of teaching, supervision and peer-reviewed publication.',
-    btnScopus: 'Scopus Profile', btnScholar: 'Google Scholar', btnEmail: 'jvahidi@iust.ac.ir',
+    btnScopus: 'Scopus Profile', btnScholar: 'Google Scholar', btnRG: 'ResearchGate',
+    btnEmail: 'jvahidi@iust.ac.ir',
     portraitCaption: 'Dr. Javad Vahidi',
 
     metricCitations: 'Citations', metricHindex: 'h-index',
@@ -70,9 +71,14 @@ const I18N = {
 
     contactKicker: 'Get in touch', contactTitle: 'Contact',
     contactEmailT: 'Email',
+    contactPhoneT: 'Telephone', contactExtT: 'Extension', contactFaxT: 'Fax',
     contactAddrT: 'Office',
-    contactAddrV: 'School of Mathematics and Computer Science, Iran University of Science and Technology, Hengam Street, Resalat Square, Narmak, Tehran 16846-13114, Iran',
+    contactAddrV: 'School of Mathematics and Computer Science, Iran University of Science and Technology, Hengam Street, Resalat Square, Tehran, Iran',
+    contactPostT: 'Postal code',
     contactDeptT: 'Department', contactDeptV: 'Department of Computer Science — IUST',
+    contactCta: 'Send me an email',
+    contactCtaNote: 'Opens a Gmail compose window.',
+    contactCtaAlt: 'Or use your own mail app',
 
     footerAffil: 'Iran University of Science and Technology',
     footerCopy: '© 2026 Dr. Javad Vahidi. All rights reserved.'
@@ -95,7 +101,8 @@ const I18N = {
     heroTitle: 'دانشیار علوم کامپیوتر و ریاضیات کاربردی',
     heroAffil: 'مدیر گروه علوم کامپیوتر · دانشکده ریاضی و علوم کامپیوتر · دانشگاه علم و صنعت ایران، تهران',
     heroLede: 'پژوهش در گستره ریاضیات علوم کامپیوتر، بهینه‌سازی، یادگیری عمیق، آنالیز عددی و امنیت اطلاعات — همراه با بیش از دو دهه تدریس، راهنمایی دانشجویان و انتشار مقالات داوری‌شده.',
-    btnScopus: 'پروفایل اسکوپوس', btnScholar: 'گوگل اسکالر', btnEmail: 'jvahidi@iust.ac.ir',
+    btnScopus: 'پروفایل اسکوپوس', btnScholar: 'گوگل اسکالر', btnRG: 'ریسرچ‌گیت',
+    btnEmail: 'jvahidi@iust.ac.ir',
     portraitCaption: 'دکتر جواد وحیدی',
 
     metricCitations: 'ارجاعات', metricHindex: 'شاخص h',
@@ -144,9 +151,14 @@ const I18N = {
 
     contactKicker: 'ارتباط با ما', contactTitle: 'تماس',
     contactEmailT: 'رایانامه',
+    contactPhoneT: 'تلفن', contactExtT: 'داخلی', contactFaxT: 'دورنگار',
     contactAddrT: 'دفتر',
-    contactAddrV: 'دانشکده ریاضی و علوم کامپیوتر، دانشگاه علم و صنعت ایران، خیابان هنگام، میدان رسالت، نارمک، تهران ۱۶۸۴۶-۱۳۱۱۴، ایران',
+    contactAddrV: 'دانشکده ریاضی و علوم کامپیوتر، دانشگاه علم و صنعت ایران، خیابان هنگام، میدان رسالت، تهران، ایران',
+    contactPostT: 'کدپستی',
     contactDeptT: 'گروه آموزشی', contactDeptV: 'گروه علوم کامپیوتر — دانشگاه علم و صنعت ایران',
+    contactCta: 'برای من ایمیل بفرستید',
+    contactCtaNote: 'پنجره نگارش جی‌میل را باز می‌کند.',
+    contactCtaAlt: 'یا از برنامه رایانامه خودتان استفاده کنید',
 
     footerAffil: 'دانشگاه علم و صنعت ایران',
     footerCopy: '© ۲۰۲۶ دکتر جواد وحیدی. کلیه حقوق محفوظ است.'
@@ -169,7 +181,8 @@ const I18N = {
     heroTitle: 'أستاذ مشارك في علوم الحاسوب والرياضيات التطبيقية',
     heroAffil: 'رئيس قسم علوم الحاسوب · كلية الرياضيات وعلوم الحاسوب · جامعة إيران للعلوم والتكنولوجيا، طهران',
     heroLede: 'بحثٌ يمتدّ عبر رياضيات علوم الحاسوب والأمثلية والتعلّم العميق والتحليل العددي وأمن المعلومات — مع أكثر من عقدين من التدريس والإشراف والنشر المُحكَّم.',
-    btnScopus: 'الملف على Scopus', btnScholar: 'Google Scholar', btnEmail: 'jvahidi@iust.ac.ir',
+    btnScopus: 'الملف على Scopus', btnScholar: 'Google Scholar', btnRG: 'ResearchGate',
+    btnEmail: 'jvahidi@iust.ac.ir',
     portraitCaption: 'الدكتور جواد وحيدي',
 
     metricCitations: 'الاستشهادات', metricHindex: 'مؤشر h',
@@ -218,9 +231,14 @@ const I18N = {
 
     contactKicker: 'تواصل معنا', contactTitle: 'التواصل',
     contactEmailT: 'البريد الإلكتروني',
+    contactPhoneT: 'الهاتف', contactExtT: 'تحويلة', contactFaxT: 'الفاكس',
     contactAddrT: 'المكتب',
-    contactAddrV: 'كلية الرياضيات وعلوم الحاسوب، جامعة إيران للعلوم والتكنولوجيا، شارع هنغام، ميدان رسالت، نارمك، طهران ١٦٨٤٦-١٣١١٤، إيران',
+    contactAddrV: 'كلية الرياضيات وعلوم الحاسوب، جامعة إيران للعلوم والتكنولوجيا، شارع هنغام، ميدان رسالت، طهران، إيران',
+    contactPostT: 'الرمز البريدي',
     contactDeptT: 'القسم', contactDeptV: 'قسم علوم الحاسوب — جامعة إيران للعلوم والتكنولوجيا',
+    contactCta: 'راسِلني عبر البريد',
+    contactCtaNote: 'يفتح نافذة إنشاء رسالة في Gmail.',
+    contactCtaAlt: 'أو استخدم تطبيق بريدك الخاص',
 
     footerAffil: 'جامعة إيران للعلوم والتكنولوجيا',
     footerCopy: '© ٢٠٢٦ الدكتور جواد وحيدي. جميع الحقوق محفوظة.'
